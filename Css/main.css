@@ -258,18 +258,4 @@ video#bgvid {
   padding-right: 0%;
 }
 
-/*fix tollbar location for mobile below*/
-
-#toolbar {
-    position: fixed;
-    width: 5%;
-    height: 200px;
-    top: 80%;
-    left: 95%;
-    padding: 5px 10px;
-    background: #;
-    border-bottom: 1px solid #333;
-}
-
-
 }
