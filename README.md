@@ -29,4 +29,4 @@ https://lipis.github.io/bootstrap-social/
 http://mynameismatthieu.com/WOW/
 
 ## Live Wesbite 
-www.CJbarbs.github.io
+https://cjbarbs.github.io
