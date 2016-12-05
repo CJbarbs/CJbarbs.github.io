@@ -2,7 +2,7 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
-.name {
+#name {
   font-size: 60px;
   font-family: 'Playfair Display', serif;
   margin-top: 20px;
@@ -22,7 +22,6 @@ body {
 .navigation {
   background-color: #FFFFFF;
   min-height: 100vh;
-  opacity: 0.6;
 }
 
 #navlist {
@@ -135,12 +134,24 @@ textarea {
 
 
 
-#picture {
-  max-width:60%;
-  max-height:50%;
-  margin-top: 5%;
-  margin-bottom: 10%;
-  margin-right: 60%;
+/*layout for screen width less than 780px */
+@media screen and (max-width: 780px) {
+
+  #name {
+    padding-left: 0%;
+  }
+
+  #projects {
+   margin-left: 30px;
+   margin-right: auto;
+   font-size: 20px;
+  }
+
+.navigation {
+  background-color: #FFFFFF;
+  min-height: 100vh;
+
+}
 
 }
 
