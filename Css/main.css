@@ -81,13 +81,6 @@ a:hover {
   text-decoration: none;
 }
 
-#portfolio {
-  /*background: url(skyline.jpg);*/
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-}
-
 img.resizer {
   max-width:40%;
   max-height:40%;
@@ -118,40 +111,7 @@ ul {
   margin-right: auto;
 }
 
-#portfoliotitle {
-  color: white;
 
-}
-
-.contactpage {
-  background-color: #FFFFFF;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-}
-video#bgvid {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 100vw;
-}
-
-#socialbuttons {
-padding-top: 5%;
-
-
-}
 
 #skills {
   padding-right: 30%;
@@ -159,23 +119,6 @@ padding-top: 5%;
   font-family: impact;
 }
 
-#contact-form h1 {
-  font-size: 1.2em;
-  margin-top: 20px;
-  padding: 20px;
-  color: #666;
-}
-
-input[type=text],
-input[type=email] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
 
 textarea {
     width: 100%;
@@ -190,17 +133,6 @@ textarea {
     margin: 20px 0;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-    margin: 20px 0;
-}
 
 
 #picture {
@@ -212,66 +144,3 @@ input[type=button], input[type=submit], input[type=reset] {
 
 }
 
-
-/*layout for screen width less than 780px */
-@media screen and (max-width: 780px) {
-
-  .name {
-    font-size: 50px;
-    font-family: 'Playfair Display', serif;
-    margin-top: 20px;
-    padding-left: 0%;
-    color: #000000;
-}
-
-#skillslist {
-    margin-left: auto;
-    margin-right: 0px;
-    margin-bottom: 10%;
-    font-size: 20px;
-}
-
-#mybio {
-  font-size: larger;
-
-}
-
-#portfoliotitle {
-  font-size: 25px;
-
-}
-
-.navigation {
-    background-color: #FFFFFF;
-    min-height: 100vh;
-    opacity: 0.6;
-}
-video#bgvid {
-  display: none;
-}
-
-#portfolio {
-  background: url(Img/skyline.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-}
-#skills {
-  padding-right: 0%;
-}
-
-/*fix tollbar location for mobile below*/
-
-#toolbar {
-    position: fixed;
-    width: 5%;
-    height: 200px;
-    top: 80%;
-    left: 95%;
-    padding: 5px 10px;
-    background: #;
-    border-bottom: 1px solid #333;
-}
-
-
-}
